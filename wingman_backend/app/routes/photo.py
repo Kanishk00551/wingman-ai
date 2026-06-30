@@ -1,7 +1,7 @@
 from fastapi import APIRouter, UploadFile, File, Form
 
-from wingman_backend.app.services.claude import compress_image, generate_openers
-from wingman_backend.app.services.supabase import save_analysis, check_and_increment_usage
+from app.services.claude import compress_image, generate_openers
+from app.services.supabase import save_analysis, check_and_increment_usage
 
 router = APIRouter()
 

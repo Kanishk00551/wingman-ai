@@ -1,4 +1,5 @@
 from fastapi import APIRouter
+
 from app.models.requests import SignupRequest, LoginRequest
 from app.config import supabase_client
 

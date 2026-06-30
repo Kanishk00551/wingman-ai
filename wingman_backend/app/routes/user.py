@@ -1,6 +1,8 @@
 from fastapi import APIRouter
+
 from app.models.requests import OnboardingRequest
 from app.config import supabase_client
+
 from datetime import datetime
 
 router = APIRouter()
