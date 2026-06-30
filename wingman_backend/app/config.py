@@ -4,7 +4,7 @@ from supabase import create_client, Client
 from dotenv import load_dotenv
 
 # 1. Force python to load from your exact absolute path
-env_location = r"E:\wingman-ai\.env"
+env_location = r"E:\wingman-ai\wingman_backend\.env"
 load_dotenv(dotenv_path=env_location)
 
 # 2. Supabase Setup

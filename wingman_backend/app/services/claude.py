@@ -1,6 +1,7 @@
 import base64
 from PIL import Image
 import io
+
 from app.config import claude_client
 
 OPENER_SYSTEM_PROMPT = """
